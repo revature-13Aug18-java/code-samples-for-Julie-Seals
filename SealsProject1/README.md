@@ -13,7 +13,7 @@ This application contains two different user roles, manager and employee, and al
   <li>Backend
     <ul>
       <li><strong>AJAX</strong></li>
-      <li>strong>Java Servlets</strong></li>
+      <li><strong>Java Servlets</strong></li>
       <li><strong>RDS</strong></li>
     </ul>
    </li>
