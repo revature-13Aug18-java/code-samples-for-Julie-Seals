@@ -1,5 +1,5 @@
-<h3>Quizzie</h3>
-Quizzie is a full-stack <strong>RESTful</strong> application that allows two different user roles, authenticated user and unauthenticated user, to take trivia quizzes with data supplied by an external API. 
+<h2>Quizzie</h2>
+Quizzie is a full-stack <strong>REST</strong>ful application that allows two different user roles, authenticated user and unauthenticated user, to take trivia quizzes with data supplied by an external API. 
 <br>Additional functinality for authenticated users
 <ul>
   <li>Register, log in and out, and update profile</li>
@@ -7,7 +7,7 @@ Quizzie is a full-stack <strong>RESTful</strong> application that allows two dif
   <li>Access other authenticated users' saved quizzes</li>
 </ul>
 
-<h4>Technologies</h4>
+<h3>Technologies</h3>
 <ul>
   <li>Frontend: User interface is a single-page application 
     <ul>
@@ -22,4 +22,3 @@ Quizzie is a full-stack <strong>RESTful</strong> application that allows two dif
     </ul>
   </li>
  </ul>
-  
