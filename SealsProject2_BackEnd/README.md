@@ -22,4 +22,4 @@ Quizzie is a full-stack <strong>REST</strong>ful application that allows two dif
     </ul>
   </li>
  </ul>
-<h5>Link to Quizzie Back End: https://github.com/TrecApps/Quiz_System_P2_2</h5> 
+<h5>Link to complete project: https://github.com/TrecApps/Quiz_System_P2_2</h5> 
