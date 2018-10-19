@@ -1,8 +1,8 @@
-<h3>Expense Reimbursement System</h3>
+<h2>Expense Reimbursement System</h2>
 This application contains two different user roles, manager and employee, and allows users to create, view, update, and delete reimbursements, depending on role, in a dynamic setting.
-<h4>Technologies</h4>
+<h3>Technologies</h3>
 <ul>
-  <li>Frontend
+  <li><h4>Frontend</h4>
     <ul>
       <li><strong>JavaScript</strong></li>
       <li><strong>HTML</strong></li>
@@ -10,7 +10,7 @@ This application contains two different user roles, manager and employee, and al
       <li><strong>CSS</strong></li>
     </ul>
   </li>
-  <li>Backend
+  <li><h4>Backend</h4>
     <ul>
       <li><strong>AJAX</strong></li>
       <li><strong>Java Servlets</strong></li>
