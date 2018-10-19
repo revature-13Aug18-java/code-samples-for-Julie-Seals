@@ -1,0 +1,24 @@
+<div class="container" style="text-align:center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEi6sL80zlyw3uJMLnZaxmXFS0nHjwiVtpQs3xQvq0usKsMAkRpQ" />
+</div>
+<div class="container" class='text-info' style="text-align:center">
+  <h1>Login</h1>
+</div>
+
+<div class="container">
+  <form>
+    <h4 class="text-secondary">Username:</h4>
+    <input type="text" class="form-control" [(ngModel)]='login.username' name='username'>
+    <h4 class="text-secondary">Password:</h4>
+    <input type="password" class="form-control" [(ngModel)]='login.password' name='password'>
+    <br><br>
+    <div class="container" style="text-align:center">
+      <button class="btn btn-info btn-lg" (click)='submit()'>Submit</button> <br><br>
+    </div>
+  </form>
+</div>
+
+<div class='container' style='text-align: center'>
+  <br><br><br>
+  <button class="btn btn-primary" (click)='goback()'>Go Back</button> <br><br>
+ </div> 

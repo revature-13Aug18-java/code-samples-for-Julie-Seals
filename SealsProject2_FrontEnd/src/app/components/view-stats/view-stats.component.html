@@ -1,0 +1,21 @@
+<div class="container-fluid" style="text-align:center" class="text-secondary" >
+
+    <app-dashboard></app-dashboard><br>
+    <h5>User: {{login.displayName}}</h5><br>
+    <h5>Quizzies Taken: {{login.quizzesTaken}}</h5><br>
+    <h5>Quizzies Passed: {{login.quizzesPassed}}</h5><br>
+    <h5>Pass Rate: {{passrate}}%</h5>
+    <br> 
+
+    <!-- this.login.quizzesTaken = parseInt(localStorage.getItem('quizzesTaken'));
+    this.login.quizzesPassed = parseInt(localStorage.getItem('quizzesPassed'));
+    this.login.pwd = localStorage.getItem('password');
+    let displayName = localStorage.getItem('displayName');
+    this.login.username = localStorage.getItem('username');
+    this.login.userId = parseInt(localStorage.getItem('userId')); -->
+
+</div>
+<br><br>
+  <div class='container' style='text-align: center'>
+    <button class="btn btn-primary" (click)='logout()'>Logout</button> <br><br>
+  </div>

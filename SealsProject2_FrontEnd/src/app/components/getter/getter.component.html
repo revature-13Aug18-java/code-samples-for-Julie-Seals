@@ -1,0 +1,67 @@
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+
+
+<!-- <div>
+        <button class="btn btn-info" (click)="getUsers()">Populate Questions </button>
+    </div> -->
+
+<!-- <ul *ngFor="let cat of cats.trivia_categories">
+            <li > {{cat.name}} 
+                
+            </li>
+    </ul> -->
+
+
+<div class="form-group" class="container" class="container-fluid" style="text-align:center">
+    <app-dashboard></app-dashboard><br>
+</div>
+
+
+<!-- <div class="form-group" class="container" class="container-fluid" style="text-align:center">
+        <app-dashboard></app-dashboard><br>
+        <label for= "category3">
+            Select The Category!
+        </label>
+        <select id="category3" name="category3"
+        [(ngModel)]="category3s" class="form-control">
+        <option *ngFor="let cat3 of category3" [value]="cat3.id">
+            {{cat3.name}}
+        
+        
+        </option>
+        
+        </select> -->
+
+<!-- <label for= "questions"> Enter the Number of Questions (Max = 50) </label>
+<input id="questions" type="number" min="0" max="50" step="1.0" [(ngModel)]="amounts" placeholder="amount"><br> -->
+
+<!-- </div> -->
+
+<div class="container" style="-webkit-text-size-adjust: auto">
+    <table class="table table-striped" *ngFor="let quiz of quizList">
+        <tr>
+            <td>{{quiz.quizId}}</td>
+            <td>{{quiz.quizName}}</td>
+            <td>{{quiz.creator}}</td>
+            <td>
+                <button class="btn btn-submit btn-lg" (click)="takeQuiz(quiz.quizId)">Take</button>
+            </td>
+        </tr>
+    </table>
+</div>
+
+<br><br>
+<div class='container' style='text-align: center'>
+    <button class="btn btn-primary" (click)='logout()'>Logout</button> <br><br>
+</div>
+    
+

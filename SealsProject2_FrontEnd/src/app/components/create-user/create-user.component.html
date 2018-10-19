@@ -1,0 +1,27 @@
+<div class="container">
+  <h2 class="text-success">Create New User</h2>
+  <div class="row">
+    <div class="col" style="text-align:left">
+      <form>
+        <br><br>
+        <h5 class="text-secondary">Username:</h5>
+        <input type="text" class="form-control" [(ngModel)]='login.username' name='username'>
+        <br><br>
+        <h5 class="text-secondary">Password:</h5>
+        <input type="password" class="form-control" [(ngModel)]='login.password' name='password'>
+        <br><br>
+        <h5 class="text-secondary">Display Name:</h5>
+        <input type="text" class="form-control" [(ngModel)]='login.displayName' name='displayName'>
+        <br><br>
+        <button class="btn btn-success btn-lg" (click)='submit()'>Create User</button>
+        <!--<p>username: {{login.username}} password: {{login.password}} displayname {{login.displayName}}</p>-->
+      </form>
+    </div>
+    <div class="col">
+      <img src="https://previews.123rf.com/images/koltukovalek/koltukovalek1611/koltukovalek161100002/68038278-signe-question-mark-ic%C3%B4ne-color%C3%A9e-aide-symbole-color%C3%A9-signe-faq-vector-facette-logo-.jpg"
+        width="400" height="400" />
+    </div>
+  </div>
+</div>
+<br>
+<button class="btn btn-primary" (click)='goback()'>Go Back</button> <br><br>

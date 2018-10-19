@@ -1,0 +1,61 @@
+<div class="container" class="container-fluid" style="text-align:center">
+  <app-dashboard></app-dashboard>
+</div>
+<div *ngIf='!check' class="container" class="container-fluid" style="text-align:center">
+
+  <h1 class="text-info">Question Form</h1>
+  <form #questionForm="ngForm">
+    <div class="form-group" class="text-secondary" style="font-size:large">
+      <label for="question">Question</label>
+      <input type="text" class="form-control" id="question" [(ngModel)]="model.questContent" name="question" required/>
+    </div>
+
+    <div class="form-group" class="container" style="text-align:center" class="text-danger" style="font-size:large">
+      <label for="answer">Answer 1</label>
+      <input type="text" class="form-control" id="answer" [(ngModel)]="answerModel.answer" name="answer" required/>
+    </div>
+
+    <div class="form-group" class="container" style="text-align:center" class="text-danger" style="font-size:large">
+      <label for="answer2">Answer 2</label>
+      <input type="text" class="form-control" id="answer2" [(ngModel)]="answerModel.answer2" name="answer2" required/> 
+    </div>
+
+    <div class="form-group" class="container" style="text-align:center" class="text-danger" style="font-size:large">
+      <label for="answer3">Answer 3</label>
+      <input type="text" class="form-control" id="answer3" [(ngModel)]="answerModel.answer3" name="answer3" required/>
+    </div>
+
+    <div class="form-group" class="container" style="text-align:center" class="text-success" style="font-size:large">
+      <label for="realanswer">Correct Answer</label>
+      <input type="text" class="form-control" id="realanswer" [(ngModel)]="model.questAns" name="realanswer" required/>
+    </div>
+
+    <br><br>
+    <button [disabled]="!questionForm.valid" (click)='submit()' class='btn btn-primary btn-lg'>Select to add question</button>
+
+    <div *ngIf="!questionForm.valid" class="container" class="container-fluid" style="text-align:center">
+      Enter All Fields
+    </div>
+
+  </form>
+
+</div>
+
+<div class="container">
+  <div *ngIf='check' class="container" class="row" style="text-align:left; font-size:large">
+    <!-- <form #newQuizzie="ngForm"> -->
+    <div class="form-group" class="container" class="col">
+      <label for="newQuiz" class="text-secondary">Enter Custom Quiz Name</label>
+      <input type="newQuiz" class="form-control" id="newQuiz" [(ngModel)]="quizzie.quizName" name="newQuiz" required/>
+    </div>
+
+    <div class="form-group" class="container" class="container-fluid" class="col" style="font-size:large">
+      <label for="questions" class="text-secondary"> Enter Desired Number of Questions (Max = 50) </label><br>
+      <input id="questions" type="number" min="0" max="50" step="1.0" [(ngModel)]="amounts" placeholder="amount" required/><br>
+    </div>
+  </div>
+</div>
+<br><br><br>
+<div class="container" style="text-align:center">
+  <button (click)='submitAmounts()' class="btn btn-outline-primary btn-lg">Submit</button>
+</div>
