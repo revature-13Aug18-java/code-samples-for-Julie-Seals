@@ -22,5 +22,6 @@ Matching Service relies on
   <li><strong>SonarLint</strong> and <strong>SonarCloud</strong> for code quality assurance</li>
   <li><strong>LogBack</strong> for logging</li>
   <li><strong>JavaDocs</strong> for documentation</li>
+  <li><strong>GitHub</strong> and <strong>Maven</strong> for DevOps
 </ul>
   
