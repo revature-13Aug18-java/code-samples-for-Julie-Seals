@@ -1,7 +1,7 @@
 <h3>Rideforce</h4>
-Rideforce, the ride-share app, is a full-stack <strong>Microservices</strong> application that allows riders access to a curated list of opted-in drivers, ranking matches based on physical proximity, comparable scheduling, and a rider's option of liking or disliking a driver. <br>
+Rideforce, the ride-share app, is a full-stack <strong>Microservices</strong> application that allows riders access to a curated list of opted-in drivers, ranking matches based on physical proximity, comparable scheduling, and a rider's option of liking or disliking a driver. <br><br>
 Application has three tiers of user roles: admin, trainer, and associate. 
-<br>
+<br><br>
 Information accessible to all users includes 
 <ul>
   <li>Preferred contact information</li>
