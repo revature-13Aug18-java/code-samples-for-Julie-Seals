@@ -2,4 +2,4 @@
 This project allows a user to create an account, log in and out, and view, deposit, or withdraw funds from their bank account. 
 
 <h4>Technologies</h4>
-It is coded in <strong>Java</strong> using <strong>JDBC</strong> and <strong>Oracle SQL</strong> to persist data to an <strong>RDS</strong>-hosted database.
+Coded in <strong>Java</strong> using <strong>JDBC</strong> and <strong>Oracle SQL</strong> to persist data to an <strong>RDS</strong>-hosted database.
