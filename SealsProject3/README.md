@@ -25,3 +25,4 @@ Matching Service relies on
   <li><strong>GitHub</strong> and <strong>Maven</strong> for DevOps
 </ul>
   
+<h5>Link to Rideforce Matching Service: https://github.com/revaturelabs/rideshare-matching-service</h5>
