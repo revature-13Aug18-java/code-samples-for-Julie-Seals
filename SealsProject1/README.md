@@ -2,7 +2,7 @@
 This application contains two different user roles, manager and employee, and allows users to create, view, update, and delete reimbursements, depending on role, in a dynamic setting.
 <h3>Technologies</h3>
 <ul>
-  <li><h4>Frontend</h4>
+  <li>Frontend
     <ul>
       <li><strong>JavaScript</strong></li>
       <li><strong>HTML</strong></li>
@@ -10,7 +10,7 @@ This application contains two different user roles, manager and employee, and al
       <li><strong>CSS</strong></li>
     </ul>
   </li>
-  <li><h4>Backend</h4>
+  <li>Backend
     <ul>
       <li><strong>AJAX</strong></li>
       <li><strong>Java Servlets</strong></li>
