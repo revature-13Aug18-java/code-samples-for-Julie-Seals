@@ -10,7 +10,7 @@
   <ul>
     <li>Link to Quizzie Front End: https://github.com/jsagreroperez/QuizzieFrontEnd</li>
     <li>Link to Quizzie Back End: https://github.com/TrecApps/Quiz_System_P2_2</li>
-    <ul>
+    </ul>
 </li>
 <li>Project3, Rideforce, is a full-stack Java-based microservices application that simplifies commuting challenges for Revature associates by connecting riders to available drivers.
   <ul>
